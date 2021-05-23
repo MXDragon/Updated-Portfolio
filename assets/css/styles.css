@@ -1,0 +1,232 @@
+:root {
+    --teal :  teal;
+    --darkgrey :  rgb(63, 63, 63) ;
+    --white: white; 
+    font-family:  Arial, Helvetica, sans-serif
+    
+}
+
+body {
+  font-family:  Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  
+}
+.website_main{
+  flex: 1;
+    background-color: var(--teal);
+    padding: 50px;
+    margin:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.background-1{
+  
+  width : 100%;
+  
+}
+.about_me_image{
+ width: 20%;
+ float:left;
+
+}
+
+
+
+.websites{
+  
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 66%;
+   
+    
+    margin: 20px;
+}
+
+header {
+    display:flex;
+    flex-direction:row;
+    background-color: var(--darkgrey);
+    color: var(--teal);
+    justify-content: space-between;
+    
+}
+
+.div_nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* width: 33%; */
+    
+}
+
+.header_nav {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.container {
+  position: relative;
+}
+.contact_me{
+  display:flex;
+}
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--teal);
+  color: var(--darkgrey);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+    background-color: var(--teal);
+    color: var(--darkgrey);
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left:50px;
+    padding-right:10px;
+}
+
+h2{
+  background-color: var(--teal);
+  color: var(--darkgrey);
+  font-size: 2.4rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left:50px;
+  padding-right:10px;
+}
+
+h3{
+  background-color: var(--teal);
+  color: var(--darkgrey);
+  font-size: 2.3rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left:50px;
+  padding-right:10px;
+  border:5px;
+}
+
+h4{
+  font-size: 1.1rem;
+    
+}
+
+.mainrow{
+  display: flex;
+  flex: 0 0 300px;
+
+}
+nav {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    
+   
+    
+}
+
+nav a{
+    color:var(--teal);
+    font-size:1.5rem;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.brightness {
+  background-color: white;
+  display: inline-block;
+
+}
+.brightness img:hover {
+  opacity: .5;
+}
+
+.web-text-block{
+
+  
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: var(--teal);
+    color: var(--darkgrey);
+    padding: 5px 5px 5px 5px;
+}
+
+
+.alt_websites
+{
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+
+}
+.alt_web_site{
+    flex: 0 0 50%;
+    background-color: var(--teal);
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+main {
+  display: flex;
+    /* flex-wrap: wrap; */
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.mainstyle {
+  display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.aboutMe{
+  margin:20px;
+}
+
+aside {
+  flex: 1;
+    background-color: --white;
+    color : --teal;
+    margin:20px;
+    text-align: left;
+    border-right-style: solid;
+    border-color: var(--darkgrey);
+    min-width:20%;
+    flex: 0 0 300px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+    main{
+      flex-direction: column;
+    }
+  }
